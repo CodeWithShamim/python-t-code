@@ -1,7 +1,7 @@
 #11
 num = [5,11,23,30,40,50]
 
-#use list comprehensions....ex>> expresion for num i list:......
+#use list comprehensions....ex>> expresion for num i list:........
 result = [x*x for x in num]
 print(result)
 
