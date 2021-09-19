@@ -8,5 +8,3 @@ def fact(a):
 #call function....
 result = fact(4)
 print("Factorial Result is : ", result,end=''"!!!")
-
-

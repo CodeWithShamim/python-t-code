@@ -1,9 +1,31 @@
 try:
-    def shamim(a,b):
-        sum = a+b
-        return sum
+    list1 = [10, 20, 30]
+    list2 = [0, 50, 60]
 
-    print(shamim(10,20))
+    result = list1[0] / list2[0]
 
-except:
-     
+except ZeroDivisionError:
+     print("Some problem!!")
+
+
+finally:
+      print("Successful")
+
+
+#print type error problem........input string value...
+try:
+    num = input("Enter your number : ")
+
+    result = 50 / num
+
+except TypeError:
+     print("Some problem!!")
+
+
+finally:
+      print("Successful")
+
+
+
+
+

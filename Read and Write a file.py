@@ -55,3 +55,4 @@ for i in file:
 file = open("hello.html", "w")
 result = file.write("\n<h1>Hello everyone<h1>")
 print(result)
+
