@@ -3,3 +3,4 @@ def Triangle(base, height):
 
 def Ractangle(base, height):
     print(f"Rectangle result is : {base * height}")
+    
