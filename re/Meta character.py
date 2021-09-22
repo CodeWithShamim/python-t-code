@@ -4,7 +4,7 @@
 *(0 or More)
 +(1 or More)
 ?(0 or 1)
-{and}
+{and}$
 
 '''
 #Number 1..........................................................
@@ -43,7 +43,7 @@ else:
 #Number 4..........................................................
 
 
-Pattern = r"s+"
+Pattern = r"s+hG"
 
 if re.search(Pattern, "My name is shGGim"):
     print("Nummber 4 : Matched")
@@ -66,9 +66,9 @@ else:
 #Number 6..........................................................
 
 
-Pattern = r"a{1,3}"
+Pattern = r"a{1,3}$"
 
-if re.search(Pattern, "shamim"):
+if re.match(Pattern, "aaa"):
     print("Nummber 6 : Matched")
 else:
     print("Not Matched")
