@@ -21,3 +21,7 @@ print(f" Roll : {wazed.roll}, GPA : {wazed.gpa}")
 print(f" Roll : {alamin.roll}, GPA : {alamin.gpa}")
 
 
+
+
+
+
